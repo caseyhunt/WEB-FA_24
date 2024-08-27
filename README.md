@@ -16,4 +16,4 @@ To bold text, use "**" e.g. **this text is bold**
 
 To italicize text, "_" e.g. _this text is italic_
 
-To strikethrough text, "~~" e.g.
+To strikethrough text, "~~" 
