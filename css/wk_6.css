@@ -1,0 +1,40 @@
+/* 1 */
+p{
+    color: red;
+}
+
+/* 11 */
+p.purple { color: purple;}
+
+/* weight = 101 */
+p #blue{
+    color: blue;
+}
+
+div{
+    border-style:dashed;
+    border-color: red;
+    /* padding:30px; */
+    margin:100px;
+    margin-left: 200px;
+}
+
+/* #first_div{
+    position: fixed;
+    left:200px;
+} */
+
+img{
+    position: sticky;
+    width:30vw;
+    top:10px;
+    margin:10vw;
+}
+
+#second_div{
+    height:50vh;
+} 
+
+h1{
+    text-shadow:1px 1px 2px black;
+}
