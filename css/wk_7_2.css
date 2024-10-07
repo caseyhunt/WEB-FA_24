@@ -2,24 +2,24 @@
 
 /* ~~ this is where we apply flexbox styling ~~ */
 
-#my_flexbox{
+/* #my_flexbox{
     display:flex;
 }
 
 .info_card{
-    flex-grow:1;
     width:20vw;
 }
+
 #info_1{
     flex-grow: .4;
     order:1;
-}
+} */
 
 
 
 /* ~~ this is where we apply grid styling ~~ */
 
-#my_grid{
+/* #my_grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-}
+} */
