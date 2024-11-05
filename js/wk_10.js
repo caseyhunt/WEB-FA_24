@@ -14,4 +14,7 @@ document.getElementById("my_head").addEventListener("click", function(e){
     document.getElementById("image").src = "images/unicorns/unicorn (2).png";
 })
 
+console.log(document.getElementById("my_head"));
+
+
 console.log(document.getElementById("my_head").innerHTML);

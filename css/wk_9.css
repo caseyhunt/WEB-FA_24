@@ -1,0 +1,44 @@
+#calculator{
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+    margin: 10vh 10vw;
+    
+}
+
+div{
+    border: 2px solid #ccc;
+}
+
+#output{
+    grid-column: span 2;
+}
+
+#numbers{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#numbers > div:hover, #operators > div:hover{
+    background-color:rgb(227, 227, 227);
+}
+
+#numbers > div:active, #operators > div:active{
+    background-color:rgb(35, 35, 35);
+    color:white;
+}
+
+#operators{
+    display:flex;
+    flex-direction:column;
+}
+
+h3{
+    width:100%;
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+h2{
+    padding-left: 6vw;
+}
