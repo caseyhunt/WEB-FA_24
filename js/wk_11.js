@@ -36,6 +36,7 @@ function buildText(arr){
 
 }
 
-document.getElementById("button_1").addEventListener("click", function(e){buildText(text)});
+document.getElementById("button_1").addEventListener("click", function(e){
+    buildText(text)});
 
 // buildText(text);
