@@ -10,17 +10,20 @@ console.log(ourObject);
 let myData = {};
 
 function fetchData(){
-fetch('https://catfact.ninja/fact')
+fetch('https://corsproxy.io/?https://xkcd.com/614/info.0.json')
     .then(res =>{
+        console.log(res)
         if(res.ok){
+
             return res.json();
         }else{
             console.log(res);
         }
-    }).then(res => {
+    })
+    .then(res => {
         myData = res;
         console.log(myData);
-        document.getElementById("fact").innerHTML = myData.fact;
+        document.getElementById("fact").innerHTML = myData.year;
     })
     .catch(error => {console.log(error)})
 }
@@ -32,5 +35,5 @@ console.log(myData);
 
 let name = "Casey";
 
-let myString = "hello " + name + "!";
-let myString = `hello ${name} !`;
+// let myString = "hello " + name + "!";
+// let myString = `hello ${name} !`;
